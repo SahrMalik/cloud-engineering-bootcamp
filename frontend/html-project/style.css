@@ -1,0 +1,31 @@
+body {
+  background-color: #c0c0c0;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+.index-container {
+  width: 80%;
+  margin: auto;
+  background-color: #ddd;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+.homebtn {
+  background-color: #f6e3ba;
+  cursor: pointer;
+}
+
+img {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+}
