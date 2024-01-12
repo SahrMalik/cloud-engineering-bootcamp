@@ -8,15 +8,54 @@ body {
 }
 
 .index-container {
-  width: 80%;
+  width: 75%;
   margin: auto;
   background-color: #ddd;
   padding: 25px;
   border-radius: 20px;
 }
 
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+}
+
+.container2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item2 {
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+.item3 {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.item5 {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
 a:hover {
   background-color: aqua;
+}
+
+a:link {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #0000ff;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #0000ff;
 }
 
 .homebtn {
@@ -25,7 +64,5 @@ a:hover {
 }
 
 img {
-  border: 1px solid #000000;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 10px;
 }
